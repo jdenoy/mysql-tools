@@ -1,5 +1,12 @@
-#! /bin/bash
- 
+#!/bin/bash
+#
+#
+# v1.0 by Maciej Mensfeld
+# Apr 4th, 2013
+#
+# v1.1 by Johan Denoyer
+# Jul 17th, 2013
+
 TIMESTAMP=$(date +"%F")
 BACKUP_DIR="/backup/$TIMESTAMP"
 MYSQL_USER="backup"
